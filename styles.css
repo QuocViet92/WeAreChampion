@@ -23,6 +23,8 @@ h2{
 }
 h3{
   font-size: 14px ;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 input{
   border: none;
@@ -92,5 +94,22 @@ textarea{
 .spanCenter{
   align-self: center;
   color: white;
+}
+#like{
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  float: right;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+#like::before{
+  content: '❤️';
+  filter: grayscale(100%)
+}
+.cssInline{
+ display: flex;
+ justify-content: space-between;
 }
 
